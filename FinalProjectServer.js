@@ -82,6 +82,7 @@ app.get("/enterToWatchMovie", (request, response) =>
         link: "https://cmsc335-final-project-vg3n.onrender.com/enterToWatchMovie"
     };
     
+    //comment
     response.render("enterToWatchMovie", variables);
 });
 app.post("/enterToWatchMovie", (request, response) => 
