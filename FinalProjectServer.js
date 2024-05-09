@@ -29,7 +29,7 @@ app.get("/enterWatchedMovie", (request, response) =>
 {
     const variables = 
     {
-        link: "http://localhost:5000/enterWatchedMovie"
+        link: "https://cmsc335-final-project-vg3n.onrender.com/enterWatchedMovie"
     };
 
     response.render("enterWatchedMovie", variables);
@@ -79,7 +79,7 @@ app.get("/enterToWatchMovie", (request, response) =>
 {
     const variables = 
     {
-        link: "http://localhost:5000/enterToWatchMovie"
+        link: "https://cmsc335-final-project-vg3n.onrender.com/enterToWatchMovie"
     };
     
     response.render("enterToWatchMovie", variables);
