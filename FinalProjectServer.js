@@ -7,7 +7,7 @@ const databaseAndCollection = {db: process.env.MONGO_DB_NAME, collection:process
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 client.connect();
-console.log(`To access server: http://localhost:5000`);
+console.log(`To access server: https://cmsc335-final-project-vg3n.onrender.com/`);
 const http = require("http");
 const express = require("express"); /* Accessing express module */
 const app = express(); /* app is a request handler function */
